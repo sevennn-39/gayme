@@ -31,7 +31,6 @@ const quizData = [
             { text: "salty", correct: false },
             { text: "sweet", correct: false },
             { text: "sour", correct: false },
-            { text: "bitter", correct: false },
             { text: "umami", correct: true },
         ]
     },
@@ -77,12 +76,18 @@ const quizData = [
             { text: "drawing", correct: true },
             { text: "baseball", correct: false },
             { text: "crochet", correct: false },
-            { text: "bowling", correct: false },
+            { text: "gardening", correct: false },
         ]
     },
     {
-        question: 
-    }
+        question: "Favorite aesthetic?",
+        answers: [
+            { text: "decora", correct: false },
+            { text: "visual kei/vkei", correct: false },
+            { text: "tenshi kawaii", correct: false },
+            { text: "grunge", correct: true },
+        ]
+    },
 
 ];
 

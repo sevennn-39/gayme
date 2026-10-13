@@ -57,7 +57,7 @@ const quizData = [
         answers: [
             { text: "visual novel", correct: true },
             { text: "first-person shooter", correct: false },
-            { text: "platformer", correct: false }
+            { text: "platformer", correct: false },
             { text: "tycoon games", correct: false },
         ]
     },
@@ -91,9 +91,9 @@ const quizData = [
 
 ];
 
-const questionElement = document.getElementById('question');
-const answerButtonsElement = document.getElementById('answer-buttons');
-const nextButton = document.getElementById('next-btn');
+const questionElement = document.getElementById('title');
+const answerButtonsElement = document.getElementById('buttons');
+const nextButton = document.getElementById('buttontwo');
 
 let currentQuestionIndex = 0;
 let score = 0;

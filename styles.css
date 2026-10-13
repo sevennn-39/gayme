@@ -5,15 +5,15 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    margin: 500;
 }
 
 h1{
-    color: white;
+    color: rgb(221, 209, 244);
 }
 
 .quizcontainer{
-    background-color:slateblue;
+    background-color:rgb(179, 135, 218);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -35,5 +35,25 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.2s;
+}
+
+.hide {
+    display: none;
+}
+
+.control-btn {
+    background-color: #4c78f2;
+    border: 2px solid #0655bd;
+    color: #17120a;
+    font-weight: bold;
+}
+
+.control-btn:hover {
+    background-color: #7a99ff;
+}
+
+.control-btn:active {
+    background-color: #e76f51;
+    border-color: #c65338;
 }
 

@@ -5,3 +5,5 @@ Made mostly in Javascript and HTML. Features 10 questions.
 
 To play: 
 click this link! -> https://sevennn-39.github.io/gayme/main.html 
+
+*context for the name: this was originally an 'are you gay' quiz. but my gaydar isn't up to snuff yet...
